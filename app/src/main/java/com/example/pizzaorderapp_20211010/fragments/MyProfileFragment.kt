@@ -52,8 +52,8 @@ class MyProfileFragment : Fragment() {
 
             if(resultCode == Activity.RESULT_OK) {
 
-                val newNick = data!!.getStringExtra("nickname")
-                nicknameEdt.text = newNick
+                val newName = data!!.getStringExtra("nickname")
+                nicknameTxt.text = newName
 
 
             }
