@@ -22,6 +22,7 @@ class ViewStoreDetailActivity : AppCompatActivity() {
         val storeData = intent.getSerializableExtra("store") as StoreData
 
         Glide.with(this).load(storeData.logoURL).into(logoImg)
+
 //        storeNameTxt.text = storeData.name
         phoneNumTxt.text = storeData.phoneNum
 
