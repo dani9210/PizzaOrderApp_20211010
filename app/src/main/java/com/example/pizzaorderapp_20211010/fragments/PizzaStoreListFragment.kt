@@ -1,5 +1,6 @@
 package com.example.pizzaorderapp_20211010.fragments
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -37,6 +38,16 @@ class PizzaStoreListFragment : Fragment() {
 
         mpizzaStoreAdapter = PizzaStoreAdapter(requireContext(),R.layout.pizza_store_list_item,mPizzastoreList)
         pizzaStoreListView.adapter = mpizzaStoreAdapter
+
+
+        pizzaStoreListView.setOnItemClickListener { adapterView, view, position, l ->
+
+            val clickedStore = mPizzastoreList[position]
+
+//            val myIntent = Intent(requireContext(), )
+
+
+        }
 
 
     }
