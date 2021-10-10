@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.pizzaorderapp_20211010.R
 
-class PizzaSttoreListFragment : Fragment() {
+class PizzaStoreListFragment : Fragment() {
 
 
     override fun onCreateView(
